@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ConsolaMono";
+  src: url("/fonts/ConsolaMono-Book.ttf");
+}
+
+@font-face {
+  font-family: "ConsolaMono";
+  src: url("/fonts/ConsolaMono-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Sloth";
+  src: url("/fonts/Sloth-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Sloth";
+  src: url("/fonts/Sloth-Bold.ttf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "JUSTSans";
+  src: url("/fonts/JUSTSans-Regular.otf");
+}
+
+body {
+  @apply bg-zinc-900 text-zinc-100;
+  overscroll-behavior-y: none !important;
+  scroll-behavior: unset !important;
+}
