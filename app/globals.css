@@ -3,17 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "ConsolaMono";
-  src: url("/fonts/ConsolaMono-Book.ttf");
-}
-
-@font-face {
-  font-family: "ConsolaMono";
-  src: url("/fonts/ConsolaMono-Bold.ttf");
-  font-weight: bold;
-}
-
-@font-face {
   font-family: "Sloth";
   src: url("/fonts/Sloth-Regular.ttf");
 }
@@ -27,6 +16,12 @@
 @font-face {
   font-family: "JUSTSans";
   src: url("/fonts/JUSTSans-Regular.otf");
+}
+
+@font-face {
+  font-family: "JUSTSans";
+  src: url("/fonts/JUSTSans-ExBold.otf");
+  font-weight: bold;
 }
 
 body {
