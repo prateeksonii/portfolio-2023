@@ -11,6 +11,8 @@ const technologies: string[] = [
   "Typescript",
   "Javascript",
   "C++",
+  "Docker",
+  "Figma",
 ];
 
 export default function TechSection() {
@@ -19,7 +21,7 @@ export default function TechSection() {
       <h1 className="text-2xl uppercase tracking-widest border-b border-zinc-700 pb-4">
         Technologies I work with
       </h1>
-      <ul className="gap-x-32 gap-y-8 pt-8 flex items-center flex-wrap grid grid-cols-4 text-8xl uppercase font-bold">
+      <ul className="gap-x-32 gap-y-8 pt-8 flex items-center flex-wrap grid grid-cols-4 text-5xl font-head uppercase font-bold">
         {React.Children.toArray(technologies.map((tech) => <li>{tech}</li>))}
       </ul>
     </section>
