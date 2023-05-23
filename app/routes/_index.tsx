@@ -3,6 +3,8 @@ import { Link } from "@remix-run/react";
 import AboutSection from "~/components/About";
 import ExperienceSection from "~/components/Experience";
 import HeroSection from "~/components/Hero";
+import TechSection from "~/components/Tech";
+import TestimonialsSection from "~/components/Testimonials";
 
 export const meta: V2_MetaFunction = () => {
   return [{ title: "Prateek Soni" }];
@@ -15,6 +17,9 @@ export default function Index() {
         <ul className="text-2xl leading-normal">
           <li className="hover:text-orange-400 cursor-pointer">
             <Link to="#about">About</Link>
+            <li></li>
+            <li></li>
+            <li></li>
           </li>
           <li className="hover:text-orange-400 cursor-pointer">Experience</li>
           <li className="hover:text-orange-400 cursor-pointer">Contact</li>
@@ -23,6 +28,8 @@ export default function Index() {
       <HeroSection />
       <AboutSection />
       <ExperienceSection />
+      <TestimonialsSection />
+      <TechSection />
     </main>
   );
 }

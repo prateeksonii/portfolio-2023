@@ -20,8 +20,7 @@
 
 @font-face {
   font-family: "JUSTSans";
-  src: url("/fonts/JUSTSans-ExBold.otf");
-  font-weight: bold;
+  src: url("/fonts/JUSTSans-Regular.otf");
 }
 
 body {
