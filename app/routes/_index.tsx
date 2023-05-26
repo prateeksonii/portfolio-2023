@@ -13,8 +13,8 @@ export const meta: V2_MetaFunction = () => {
 export default function Index() {
   return (
     <main>
-      <nav className="fixed top-8 bottom-8 right-8">
-        <ul className="text-2xl leading-normal">
+      <nav className="fixed top-8 bottom-8 right-32 md:right-8">
+        <ul className="text-md md:text-2xl leading-normal">
           <li className="hover:text-orange-400 cursor-pointer">
             <Link to="#about">About</Link>
             <li></li>
