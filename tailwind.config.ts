@@ -6,11 +6,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['JUSTSans', ...fontFamily.sans],
+        sans: ['Inter', ...fontFamily.sans],
         head: ['Sloth', ...fontFamily.sans]
       }
     },
   },
-  plugins: [require('tailwind-scrollbar-hide')],
+  plugins: [require('tailwind-scrollbar-hide'), require('@tailwindcss/forms')],
 } satisfies Config
 
