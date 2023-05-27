@@ -2,7 +2,10 @@ import { Form } from "@remix-run/react";
 
 export default function ContactSection() {
   return (
-    <div className="py-40 flex flex-col justify-center bg-zinc-950">
+    <section
+      id="contact"
+      className="py-40 flex flex-col justify-center bg-zinc-950"
+    >
       <div className="mx-auto container">
         <h1 className="text-2xl pb-8 tracking-widest uppercase">
           Let&apos;s talk
@@ -12,12 +15,14 @@ export default function ContactSection() {
             <a
               href="https://linkedin.com/in/prateeksoni47"
               className="text-4xl md:text-5xl font-head uppercase font-bold"
+              target="_blank" rel="noreferrer"
             >
               LinkedIn
             </a>
             <a
-              href="https://linkedin.com/in/prateeksoni47"
+              href="https://github.com/prateeksonii"
               className="text-4xl md:text-5xl font-head uppercase font-bold"
+              target="_blank" rel="noreferrer"
             >
               Github
             </a>
@@ -30,6 +35,6 @@ export default function ContactSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

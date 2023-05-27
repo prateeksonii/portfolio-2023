@@ -18,12 +18,13 @@ export default function Index() {
         <ul className="text-md md:text-2xl leading-normal">
           <li className="hover:text-orange-400 cursor-pointer">
             <Link to="#about">About</Link>
-            <li></li>
-            <li></li>
-            <li></li>
           </li>
-          <li className="hover:text-orange-400 cursor-pointer">Experience</li>
-          <li className="hover:text-orange-400 cursor-pointer">Contact</li>
+          <li className="hover:text-orange-400 cursor-pointer">
+            <Link to="#experience">Experience</Link>
+          </li>
+          <li className="hover:text-orange-400 cursor-pointer">
+            <Link to="#contact">Contact</Link>
+          </li>
         </ul>
       </nav>
       <HeroSection />
