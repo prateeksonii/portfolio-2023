@@ -1,0 +1,21 @@
+---
+interface ExperienceItemProps {
+  timeline: string;
+  title: string;
+  company: string;
+}
+
+const { timeline, title, company } = Astro.props as ExperienceItemProps;
+---
+
+<li
+  class="grid md:grid-cols-2 items-center py-2 gap-8 border-t border-b border-zinc-700"
+>
+  <h2 class="text-4xl md:text-8xl font-head uppercase font-bold">
+    {timeline}
+  </h2>
+  <div class="flex flex-col gap-1">
+    <p class="text-xl md:text-5xl">{title}</p>
+    <p class="text-md md:text-3xl">{company}</p>
+  </div>
+</li>

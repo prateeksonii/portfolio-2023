@@ -1,0 +1,68 @@
+---
+import About from "../components/About.astro";
+import Contact from "../components/Contact.astro";
+import Experience from "../components/Experience.astro";
+import Hero from "../components/Hero.astro";
+import Tech from "../components/Tech.astro";
+import Testimonials from "../components/Testimonials.astro";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Astro</title>
+  </head>
+  <body>
+    <main>
+      <nav class="fixed top-8 bottom-8 right-32 md:right-8">
+        <ul class="text-md md:text-2xl leading-normal">
+          <li class="hover:text-orange-400 cursor-pointer">
+            <a href="#about">About</a>
+          </li>
+          <li class="hover:text-orange-400 cursor-pointer">
+            <a href="#experience">Experience</a>
+          </li>
+          <li class="hover:text-orange-400 cursor-pointer">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <Hero />
+      <About />
+      <Experience />
+      <Testimonials />
+      <Tech />
+      <Contact />
+    </main>
+  </body>
+</html>
+
+<style>
+  @font-face {
+    font-family: "Sloth";
+    src: url("/fonts/Sloth-Regular.ttf");
+  }
+
+  @font-face {
+    font-family: "Sloth";
+    src: url("/fonts/Sloth-Bold.ttf");
+    font-weight: bold;
+  }
+
+  body {
+    @apply bg-zinc-900 text-zinc-100;
+  }
+</style>
