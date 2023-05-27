@@ -1,5 +1,3 @@
-import { Form } from "@remix-run/react";
-
 export default function ContactSection() {
   return (
     <section
@@ -15,14 +13,16 @@ export default function ContactSection() {
             <a
               href="https://linkedin.com/in/prateeksoni47"
               className="text-4xl md:text-5xl font-head uppercase font-bold"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>
             <a
               href="https://github.com/prateeksonii"
               className="text-4xl md:text-5xl font-head uppercase font-bold"
-              target="_blank" rel="noreferrer"
+              target="_blank"
+              rel="noreferrer"
             >
               Github
             </a>
